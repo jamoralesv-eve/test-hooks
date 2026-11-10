@@ -2,8 +2,12 @@
   "version": 1,
   "hooks": {
     "beforeShellExecution": [
-  { "command": "./.cursor/hooks/diag.sh cursor beforeShellExecution", "timeout": 22, "failClosed": false }
-],
+      {
+        "command": "sh .cursor/hooks/diag.sh cursor beforeShellExecution",
+        "timeout": 22,
+        "failClosed": false
+      }
+    ],
     "beforeMCPExecution": [
       {
         "command": "\"./.cursor/hooks/cursor-hook.cmd\" cursor beforeMCPExecution",
