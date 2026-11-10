@@ -1,0 +1,14 @@
+{
+  "orchestrator_url": "https://eve-pr-1621.pr.guard.eve.security",
+  "tenant_id": "44444444-4444-4444-8444-444444444444",
+  "plugin_id": "6d0186ab-14ae-412b-ae05-5c38f8c6e9a7",
+  "config_hash": "934a99c5bba24181",
+  "hook_code_version": "0.14.7",
+  "timeout_s": 10,
+  "failure_mode": "fail-open",
+  "max_retries": 1,
+  "debug": false,
+  "capabilities": "reply-text",
+  "built_at": "2026-11-10T22:02:21.707Z",
+  "hook_token": "evh_WYG4rKSVTBS_KN6oI4f7aTEaaq6EyTU_-xcyo_OfBfY"
+}

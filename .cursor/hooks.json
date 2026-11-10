@@ -1,0 +1,62 @@
+{
+  "version": 1,
+  "hooks": {
+    "beforeShellExecution": [
+      {
+        "command": "\"./hooks/cursor-hook.cmd\" cursor beforeShellExecution",
+        "timeout": 22,
+        "failClosed": false
+      }
+    ],
+    "beforeMCPExecution": [
+      {
+        "command": "\"./hooks/cursor-hook.cmd\" cursor beforeMCPExecution",
+        "timeout": 22,
+        "failClosed": false
+      }
+    ],
+    "beforeReadFile": [
+      {
+        "command": "\"./hooks/cursor-hook.cmd\" cursor beforeReadFile",
+        "timeout": 22,
+        "failClosed": false
+      }
+    ],
+    "afterMCPExecution": [
+      {
+        "command": "\"./hooks/cursor-hook.cmd\" cursor afterMCPExecution",
+        "timeout": 22,
+        "failClosed": false
+      }
+    ],
+    "postToolUse": [
+      {
+        "command": "\"./hooks/cursor-hook.cmd\" cursor postToolUse",
+        "timeout": 22,
+        "failClosed": false,
+        "matcher": "^MCP:"
+      }
+    ],
+    "afterAgentResponse": [
+      {
+        "command": "\"./hooks/cursor-hook.cmd\" cursor afterAgentResponse",
+        "timeout": 22,
+        "failClosed": false
+      }
+    ],
+    "stop": [
+      {
+        "command": "\"./hooks/cursor-hook.cmd\" cursor stop",
+        "timeout": 62,
+        "failClosed": false
+      }
+    ],
+    "sessionStart": [
+      {
+        "command": "\"./hooks/cursor-hook.cmd\" cursor sessionStart",
+        "timeout": 22,
+        "failClosed": false
+      }
+    ]
+  }
+}
